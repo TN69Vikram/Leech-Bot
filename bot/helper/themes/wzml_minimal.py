@@ -2,13 +2,13 @@
 class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
-    ST_BN1_NAME = 'Repo'
-    ST_BN1_URL = 'https://www.github.com/weebzone/WZML-X'
-    ST_BN2_NAME = 'Updates'
-    ST_BN2_URL = 'https://t.me/WZML_X'
+    ST_BN1_NAME = 'Oᴡɴᴇʀ'
+    ST_BN1_URL = 'https://t.me/LCUxOwner'
+    ST_BN2_NAME = 'Bᴏᴛ Uᴘᴅᴀᴛᴇs'
+    ST_BN2_URL = 'https://t.me/LCUxBotz'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to Google Drive or any rclone cloud or to telegram or to ddl servers.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here. Start Using ...</i>'''
+    ST_BOTPM = '''<i><b>Now, This bot will send all your files and links here. Start Using ...<\b></i>'''
     ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
@@ -57,6 +57,8 @@ class WZMLStyle:
 ┃ <b>Total Disk Write :</b> {disk_write}
 ┖ <b>U :</b> {disk_u} | <b>F :</b> {disk_f} | <b>T :</b> {disk_t}
     
+    <b>🔰 Pᴏᴡᴇʀᴇᴅ Bʏ : @LCUxCloud</b>
+
     '''
     SYS_STATS = '''⌬ <b><i>OS SYSTEM :</i></b>
 ┠ <b>OS Uptime :</b> {os_uptime}
@@ -77,6 +79,9 @@ class WZMLStyle:
 ┠ <b>P-Core(s) :</b> {p_core} | <b>V-Core(s) :</b> {v_core}
 ┠ <b>Total Core(s) :</b> {total_core}
 ┖ <b>Usable CPU(s) :</b> {cpu_use}
+
+   <b>🔰 Pᴏᴡᴇʀᴇᴅ Bʏ : @LCUxCloud</b>
+
     '''
     REPO_STATS = '''⌬ <b><i>REPO STATISTICS :</i></b>
 ┠ <b>Bot Updated :</b> {last_commit}
@@ -85,6 +90,9 @@ class WZMLStyle:
 ┖ <b>Last ChangeLog :</b> {commit_details}
 
 ⌬ <b>REMARKS :</b> <code>{remarks}</code>
+  
+   <b>🔰 Pᴏᴡᴇʀᴇᴅ Bʏ : @LCUxCloud</b>
+   
     '''
     BOT_LIMITS = '''⌬ <b><i>BOT LIMITATIONS :</i></b>
 ┠ <b>Direct Limit :</b> {DL} GB
@@ -100,6 +108,9 @@ class WZMLStyle:
 ┠ <b>User Time Limit :</b> {UTI} / task
 ┠ <b>User Parallel Tasks :</b> {UT}
 ┖ <b>Bot Parallel Tasks :</b> {BT}
+    
+    <b>🔰 Pᴏᴡᴇʀᴇᴅ Bʏ : @LCUxCloud</b>
+    
     '''
     # ---------------------
 
@@ -126,35 +137,36 @@ class WZMLStyle:
 ┠ <b>Mode:</b> {Mode}
 ┖ <b>By:</b> {Tag}\n\n"""
     LINKS_SOURCE = """➲ <b>Source:</b>
-┖ <b>Added On:</b> {On}
+┖ <b>Added On :</b> {On}
 ------------------------------------------
 {Source}
 ------------------------------------------\n\n"""
     
     # async def __msg_to_reply(self): ---> pyrogramEngine.py
-    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link:</b> <a href='{msg_link}'>Click Here</a>"
+    PM_START =            "➲ <b><u>Task Started :</u></b>\n┃\n┖ <b>Link :</b> <a href='{msg_link}'>Click Here</a>"
     L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
+    SIZE =                  '┠ <b>Size : </b>{Size}\n'
+    ELAPSE =                '┠ <b>Elapsed : </b>{Time}\n'
+    MODE =                  '┠ <b>Mode : </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    L_TOTAL_FILES =         '┠ <b>Total Files : </b>{Files}\n'
+    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files : </b>{Corrupt}\n'
+    L_CC =                  '┖ <b>By : </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
-    L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
-    L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
+    L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>:'
+
+    L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n<b>'
     
     # ----- MIRROR -------
-    M_TYPE =                '┠ <b>Type: </b>{Mimetype}\n'
-    M_SUBFOLD =             '┠ <b>SubFolders: </b>{Folder}\n'
-    TOTAL_FILES =           '┠ <b>Files: </b>{Files}\n'
-    RCPATH =                '┠ <b>Path: </b><code>{RCpath}</code>\n'
-    M_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    M_TYPE =                '┠ <b>Type : </b>{Mimetype}\n'
+    M_SUBFOLD =             '┠ <b>SubFolders : </b>{Folder}\n'
+    TOTAL_FILES =           '┠ <b>Files : </b>{Files}\n'
+    RCPATH =                '┠ <b>Path : </b><code>{RCpath}</code>\n'
+    M_CC =                  '┖ <b>By : </b>{Tag}\n\n'
     M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ Cloud Link'
@@ -177,33 +189,33 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>Processed:</b> {Processed}'
-    STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
-    LEECHERS =                                           '<b>Leechers:</b> {Leechers}'
+    PROCESSED =         '\n┠ <b>📊 Processed :</b> {Processed}'
+    STATUS =            '\n┠ <b>⚡Status :</b> <a href="{Url}">{Status}</a>'
+    ETA =                                                '\n┠ <b>⏰ ETA :</b> {Eta}'
+    SPEED =             '\n┠ <b>🚀 Speed :</b> {Speed}'
+    ELAPSED =           '\n┠ <b>⏳ Elapsed :</b> {Elapsed}'
+    ENGINE =            '\n┠ <b>🚂 Engine :</b> {Engine}'
+    STA_MODE =          '\n┠ <b>🌐 Mode :</b> {Mode}'
+    SEEDERS =           '\n┠ <b>🌱 Seeders :</b> {Seeders} | '
+    LEECHERS =                         '\n┠ <b>🌀 Leechers :</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>Speed: </b> {Speed} | '
-    UPLOADED =                                     '<b>Uploaded: </b> {Upload}'
-    RATIO =          '\n┠ <b>Ratio: </b> {Ratio} | '
+    SEED_SIZE =      '\n┠ <b>📂 Size : </b>{Size}'
+    SEED_SPEED =     '\n┠ <b>🚀 Speed : </b> {Speed} | '
+    UPLOADED =                                     '<b>Uploaded : </b> {Upload}'
+    RATIO =          '\n┠ <b>Ratio : </b> {Ratio} | '
     TIME =                                         '<b>Time: </b> {Time}'
-    SEED_ENGINE =    '\n┠ <b>Engine:</b> {Engine}'
+    SEED_ENGINE =    '\n┠ <b>🚂 Engine :</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>Engine:</b> {Engine}'
+    STATUS_SIZE =    '\n┠ <b>Size : </b>{Size}'
+    NON_ENGINE =     '\n┠ <b>🚂 Engine :</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>User:</b> <code>{User}</code> | '
-    ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
-    CANCEL =         '\n┖ {Cancel}\n\n'
+    USER =              '\n┠ <b>🙋 User :</b> <code>{User}</code> | '
+    ID =                                                   '\n┠ <b>🆔 ID :</b> <code>{Id}</code>'
+    BTSEL =          '\n┠ <b>Select :</b> {Btsel}'
+    CANCEL =         '\n┖❌ {Cancel}\n\n'
 
     ####------FOOTER--------
     FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
@@ -248,6 +260,9 @@ class WZMLStyle:
 ⌬ <b><i>Bot Stats</i></b>
 ┠ <b>CPU:</b> {cpu}% | <b>F:</b> {free} [{free_p}%]
 ┖ <b>RAM:</b> {ram} | <b>UPTIME:</b> {uptime}
+   
+   <b>🔰 Pᴏᴡᴇʀᴇᴅ Bʏ : @LCUxCloud</b>
+
     '''
     # ---------------------
 
@@ -260,7 +275,11 @@ class WZMLStyle:
 ┖<b> Language :</b> {LANG}
 
 ➲ <u><b>Available Args:</b></u>
-• <b>-s</b> or <b>-set</b>: Set Directly via Arg'''
+• <b>-s</b> or <b>-set</b>: Set Directly via Arg
+
+<b>🔰 Pᴏᴡᴇʀᴇᴅ Bʏ : @LCUxCloud</b>
+
+'''
 
     UNIVERSAL = '''㊂ <b><u>Universal Settings : {NAME}</u></b>
 
@@ -270,7 +289,11 @@ class WZMLStyle:
 ┠<b> User Session :</b> <code>{USESS}</code>
 ┠<b> MediaInfo Mode :</b> <code>{MEDIAINFO}</code>
 ┠<b> Save Mode :</b> <code>{SAVE_MODE}</code>
-┖<b> User Bot PM :</b> <code>{BOT_PM}</code>'''
+┖<b> User Bot PM :</b> <code>{BOT_PM}</code>
+
+<b>🔰 Pᴏᴡᴇʀᴇᴅ Bʏ : @LCUxCloud</b>
+
+'''
 
     MIRROR = '''㊂ <b><u>Mirror/Clone Settings : {NAME}</u></b>
 
@@ -281,7 +304,11 @@ class WZMLStyle:
 ┠<b> DDL Server(s) :</b> <i>{DDL_SERVER}</i>
 ┠<b> User TD Mode :</b> <i>{TMODE}</i>
 ┠<b> Total User TD(s) :</b> <i>{USERTD}</i>
-┖<b> Daily Mirror :</b> <code>{DM}</code> per day'''
+┖<b> Daily Mirror :</b> <code>{DM}</code> per day
+
+<b>🔰 Pᴏᴡᴇʀᴇᴅ Bʏ : @LCUxCloud</b>
+
+'''
 
     LEECH = '''㊂ <b><u>Leech Settings for {NAME}</u></b>
 
@@ -295,4 +322,8 @@ class WZMLStyle:
 ┠<b> Leech Prefix :</b> <code>{LPREFIX}</code>
 ┠<b> Leech Suffix :</b> <code>{LSUFFIX}</code>
 ┠<b> Leech Dumps :</b> <code>{LDUMP}</code>
-┖<b> Leech Remname :</b> <code>{LREMNAME}</code>'''
+┖<b> Leech Remname :</b> <code>{LREMNAME}</code>
+
+<b>🔰 Pᴏᴡᴇʀᴇᴅ Bʏ : @LCUxCloud</b>
+
+'''
